@@ -1,7 +1,8 @@
 Source: profanity
 Section: net
 Priority: optional
-Maintainer: Dariusz Dwornikowski <dariusz.dwornikowski@cs.put.poznan.pl>
+Maintainer:  Mathias Ertl <mati@jabber.at>
+XSBC-Orig-Maintainer: Dariusz Dwornikowski <dariusz.dwornikowski@cs.put.poznan.pl>
 Build-Depends:
  debhelper (>= 9),
  dh-autoreconf,
@@ -20,8 +21,8 @@ Build-Depends:
  libcmocka-dev
 Standards-Version: 3.9.6
 Homepage: http://www.profanity.im/
-Vcs-Git: git://anonscm.debian.org/collab-maint/profanity.git
-Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/profanity.git;a=summary
+Vcs-Git: https://github.com/jabber-at/profanity.git
+Vcs-Browser: https://github.com/jabber-at/profanity
 
 Package: profanity
 Architecture: any
